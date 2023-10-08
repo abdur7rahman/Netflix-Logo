@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+
+}
+
+body{
+    background-color: #222;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.netflix{
+    background-color:#b1060f;
+    position: relative;
+    width: 60px;
+    height: 250px;
+}
+
+.netflix::before{
+    background-color:#b1060f;
+    position: absolute;
+    width: 60px;
+    height: 250px;
+    left: 90px;
+    content: "";
+}
+
+.netflix::after{
+    background-color: #222;
+    position: absolute;
+    width: 175px;
+    height: 20px;
+    left: -15px;
+    content: "";
+    border-radius: 50%;
+    bottom: -10px;
+}
+
+.N{
+    background-color: #e50913;
+    width: 60px;
+    height: 250px;
+    position: absolute;
+    left: 46px;
+    box-shadow: 0 0 10px -4px;
+    transform: skew(20deg);
+    
+}
